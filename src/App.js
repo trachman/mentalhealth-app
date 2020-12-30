@@ -20,12 +20,14 @@ export default function App() {
         }}>Decrease Counter</button>
       </div>
       <div>
-        <button className="updatedb" onClick={() => { axios.post('http://localhost:5000/counter', {counterVal : counter})
+        <button className="updatedb" onClick={() => { 
+            axios.post('http://localhost:5000/counter', 
+            {counterVal : counter})
             .then(response => {
               console.log(response.data);
             })
             .catch(error => {
-              console.log(error)
+              console.log("Could not connect to the server.")
             })}}>Update Database</button>
       </div>
     </div>

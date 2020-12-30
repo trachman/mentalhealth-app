@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
-var db = require("./dummydb.js")
+const db = require("./dummydb.js")
 
 const port = 5000;
 
