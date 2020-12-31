@@ -27,8 +27,16 @@ export default function App() {
               console.log(response.data);
             })
             .catch(error => {
-              console.log("Could not connect to the server.")
+              console.log("Could not connect to the server.");
             })}}>Update Database</button>
+        <button className="updatedb" onClick={() => {
+          axios.get('http://localhost:5000/clear')
+          .then(response => {
+            console.log(response.data);
+          }).catch( error => {
+            console.log("Could not connect to the server.");
+          })
+        }}>Clear Database</button>
       </div>
     </div>
   );
