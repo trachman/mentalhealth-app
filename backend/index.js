@@ -9,25 +9,18 @@ const port = 5000;
 const dbPath = 'database.json';
 
 // returns the updated db as a json object
-const updatedb = (count) => {
-    let rawdata = fs.readFileSync(dbPath);
-    let data = JSON.parse(rawdata);
-    data["current"]++;
-    data["entry"].push(data["current"]);
-    data["count"].push(count);
+const updatedb = (data) => {
     let newdata = JSON.stringify(data, null, 2);
     fs.writeFile(dbPath, newdata, (err) => {
         if (err) throw err;
     });
-    return data;
+    return newdata;
 }
 
 // returns an empty json object of this db
 const cleardatabase = () => {
     let data = {
-        "current" : 0,
-        "entry" : [],
-        "count" : []
+        users: []
     };
     let rawdata = JSON.stringify(data, null, 2);
     fs.writeFile(dbPath, rawdata, (err) => {
@@ -49,12 +42,12 @@ app.listen(port, () => {
 
 // simple post request to add to the 'db'
 app.post('/update', (req, res) => {
-    let data = updatedb(req.body.counterVal)
+    let data = updatedb(req.body)
     console.log(data);
-    res.send(`Thomas has ${req.body.counterVal} vagina(s).`);
+    res.send(`received data`);
 })
 
-// clears db
+// simple delete request
 app.delete('/clear', (req, res) => {
     let data = cleardatabase();
     console.log(data);

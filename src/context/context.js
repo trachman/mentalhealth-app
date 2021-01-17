@@ -24,8 +24,18 @@ const ContextProvider = (props) => {
         ]);
     };
 
-    const sendToDatabase = () => {
-        console.log(JSON.parse(localStorage.getItem("users")));
+    const updateDatabase = () => {
+        axios.post('http://localhost:5000/update', {data: users})
+            .then((response) => { console.log(response) })
+            .catch((error) => {console.log(error) })
+    };
+    
+    const clearDatabase = () => {
+        axios.delete('http://localhost:5000/clear')
+            .then((response) => { console.log(response) })
+            .catch((error) => {console.log(error) })
+        // clear the local storage
+        setUsers([]);
     };
 
     const removeUser = (id) => {
@@ -40,7 +50,9 @@ const ContextProvider = (props) => {
                 //USER ACTIONS
                 addUser,
                 removeUser,
-                sendToDatabase,
+                //DB ACTIONS
+                updateDatabase,
+                clearDatabase,
             }}>
             {props.children}
         </Context.Provider>

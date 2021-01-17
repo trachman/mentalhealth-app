@@ -12,7 +12,7 @@ const Remove = (key) => {
     return (
         <>
             <div className="close-container">
-                <a href="javascript:void(0);"><img src={RemoveIcon} alt="remove" className="removeicon" onClick={handler}/></a>
+                <a href="#!" onClick={() => {return false;}}><img src={RemoveIcon} alt="remove" className="removeicon" onClick={handler}/></a>
             </div>
         </>
     );
