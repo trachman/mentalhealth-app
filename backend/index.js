@@ -48,14 +48,14 @@ app.listen(port, () => {
 });
 
 // simple post request to add to the 'db'
-app.post('/counter', (req, res) => {
+app.post('/update', (req, res) => {
     let data = updatedb(req.body.counterVal)
     console.log(data);
     res.send(`Thomas has ${req.body.counterVal} vagina(s).`);
 })
 
 // clears db
-app.get('/clear', (req, res) => {
+app.delete('/clear', (req, res) => {
     let data = cleardatabase();
     console.log(data);
     res.send('database has been cleared.')
