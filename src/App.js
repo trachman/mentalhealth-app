@@ -1,5 +1,4 @@
 import './styles/styles.css';
-import axios from 'axios';
 import * as React from 'react';
 import Title from './components/Title.js';
 import SignUpForm from './components/Signupform.js';
