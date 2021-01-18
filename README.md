@@ -1,6 +1,6 @@
 # INITIALIZING YOUR DEVELOPMENT ENVIRONMENT
 
-## Dependencies Required for Launch
+## Tools Required for Launch
 
 1. Git command line tool
 2. Node.js
@@ -11,7 +11,7 @@ NOTE: If you already have all of the above feel free to skip ahead to the Initia
 
 <br/>
 
-## Install Locations for Dependencies
+## Tool Install Instructions
 
 Navigate to and follow the development instructions at the install locations below.
 
