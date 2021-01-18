@@ -1,11 +1,13 @@
-# INITIALIZING THE DEVELOPMENT ENVIRONMENT
+# INITIALIZING YOUR DEVELOPMENT ENVIRONMENT
 
 ## Run the Following Commands in The Directory you Wish to Start Development
 
-> git clone https://github.com/trachman/mentalhealth-app.git
-> npm init -y
-> npm install
-> npm start
+```
+> git clone https://github.com/trachman/mentalhealth-app.git  \n
+> npm init -y  \n
+> npm install  \n
+> npm start  \n
+```
 
 ## Dependencies Required for Launch
 
