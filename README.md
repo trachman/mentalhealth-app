@@ -11,7 +11,7 @@ NOTE: If you already have all of the above feel free to skip ahead to the Initia
 
 <br/>
 
-### Install Locations for Dependencies
+## Install Locations for Dependencies
 
 Navigate to and follow the development instructions at the install locations below.
 
@@ -30,7 +30,6 @@ In order to ensure the installation process was successful run...
 You are now ready to begin initializing your development environment.
 
 <br/>
-<br/>
 
 ## Initializing the Development Environment
 
@@ -47,6 +46,8 @@ If all of the above was successful you should now see our boiler plate front-end
 From everyone at the BOLT Team, Happy Hacking :) !
 
 If you have any questions or concerns dont hesitate to reach out to us @contactendpointhere.
+
+<br/>
 
 ## IMPORTANT NOTE FOR ALL CONTESTANTS
 
