@@ -1,3 +1,21 @@
+## INITIALIZING THE DEVELOPMENT ENVIRONMENT
+
+# Run the Following Commands in The Directory you Wish to Start Development
+
+git clone https://github.com/trachman/mentalhealth-app.git
+npm init -y
+npm install
+npm start
+
+# Dependencies Required for Launch
+
+Ensure updated versions of both git and Node Package Manager (npm) are installed on your local.
+
+
+### INCLUDED BELOW IS CREATE-REACT-APP'S DOCUMENTATION
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
