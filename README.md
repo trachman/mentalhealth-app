@@ -27,7 +27,7 @@ node --version
 npm --version
 ```
 
-You are now ready to begin initializing your development environment.
+Provided the above commands are recognized, you are now ready to begin initializing your development environment.
 
 <br/>
 
