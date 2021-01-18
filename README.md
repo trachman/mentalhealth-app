@@ -13,6 +13,15 @@
 
 Ensure updated versions of both git and Node Package Manager (npm) are installed on your local.
 
+
+
+
+
+
+
+
+
+
 # BELOW IS CREATE-REACT-APP'S DOCUMENTATION
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
