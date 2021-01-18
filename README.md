@@ -13,14 +13,13 @@
 
 Ensure updated versions of both git and Node Package Manager (npm) are installed on your local.
 
-
-
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 # BELOW IS CREATE-REACT-APP'S DOCUMENTATION
 
