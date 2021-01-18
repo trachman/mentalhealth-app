@@ -19,7 +19,7 @@ Node.js & Node Package Manager (npm) -> [Download Here](https://nodejs.org/en/do
 
 The git command line tool comes pre-installed on most Linux and Mac machines, however, if you're using Windows navigate to -> [Git for Windows Installer](https://gitforwindows.org/).
 
-In order to ensure the installation process was successful run...
+In order to ensure the installation process was successful, in your terminal run:
 
 ```console
 git version
@@ -35,7 +35,7 @@ You are now ready to begin initializing your development environment.
 
 ### Initializing the Frontend
 
-Run the Following Commands in The Directory you Wish to Start Development...
+In your terminal, run the following commands in the directory you wish to start development:
 
 ```console
 git clone https://github.com/trachman/mentalhealth-app.git  
@@ -47,7 +47,7 @@ npm start
 
 ### Initializing the Backend
 
-After the above was successful, in a separate terminal window from the mentalhealth-app directory run...
+If the above was successful, in a separate terminal window from the mentalhealth-app directory run:
 
 ```console
 cd backend
