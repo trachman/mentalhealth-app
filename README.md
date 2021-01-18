@@ -21,10 +21,10 @@ The git command line tool comes pre-installed on most Linux and Mac machines, ho
 
 In order to ensure the installation process was successful run...
 
-```
-> git version
-> node --version
-> npm --version
+```console
+git version
+node --version
+npm --version
 ```
 
 You are now ready to begin initializing your development environment.
@@ -37,23 +37,23 @@ You are now ready to begin initializing your development environment.
 
 Run the Following Commands in The Directory you Wish to Start Development...
 
-```
-> git clone https://github.com/trachman/mentalhealth-app.git  
-> cd mentalhealth-app
-> npm init -y  
-> npm install  
-> npm start  
+```console
+git clone https://github.com/trachman/mentalhealth-app.git  
+cd mentalhealth-app
+npm init -y  
+npm install  
+npm start  
 ```
 
 ### Initializing the Backend
 
 After the above was successful, in a separate terminal window from the mentalhealth-app directory run...
 
-```
-> cd backend
-> npm init -y
-> npm install
-> node index.js
+```console
+cd backend
+npm init -y
+npm install
+node index.js
 ```
 
 <br/>
