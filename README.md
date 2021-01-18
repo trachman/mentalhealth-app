@@ -39,6 +39,7 @@ Run the Following Commands in The Directory you Wish to Start Development...
 
 ```
 > git clone https://github.com/trachman/mentalhealth-app.git  
+> cd mentalhealth-app
 > npm init -y  
 > npm install  
 > npm start  
