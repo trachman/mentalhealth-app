@@ -1,6 +1,40 @@
 # INITIALIZING YOUR DEVELOPMENT ENVIRONMENT
 
-## Run the Following Commands in The Directory you Wish to Start Development
+## Dependencies Required for Launch
+
+1. Git command line tool
+2. Node.js
+3. Node Package Manager (npm)
+
+Before continuing, please ensure that updated versions of the above are installed on your local.
+NOTE: If you already have all of the above feel free to skip ahead to the Initializing the Development Environment section.
+
+<br/>
+
+### Install Locations for Dependencies
+
+Navigate to and follow the development instructions at the install locations below.
+
+Node.js & Node Package Manager (npm) -> [Download Here](https://nodejs.org/en/download/).
+
+The git command line tool comes pre-installed on most Linux and Mac machines, however, if you're using Windows navigate to -> [Git for Windows Installer](https://gitforwindows.org/).
+
+In order to ensure the installation process was successful run...
+
+```
+> git version
+> node --version
+> npm --version
+```
+
+You are now ready to begin initializing your development environment.
+
+<br/>
+<br/>
+
+## Initializing the Development Environment
+
+Run the Following Commands in The Directory you Wish to Start Development...
 
 ```
 > git clone https://github.com/trachman/mentalhealth-app.git  
@@ -9,19 +43,22 @@
 > npm start  
 ```
 
-## Dependencies Required for Launch
+If all of the above was successful you should now see our boiler plate front-end/back-end template in your browser and you can begin developing your teams project right away!
+From everyone at the BOLT Team, Happy Hacking :) !
 
-Ensure updated versions of both git and Node Package Manager (npm) are installed on your local.
+If you have any questions or concerns dont hesitate to reach out to us @contactendpointhere.
+
+## IMPORTANT NOTE FOR ALL CONTESTANTS
+
+By NO MEANS are you required to use this template, or even create any kind of web app whatsoever for this bootcamp! We encourage you to be as creative as possible and think outside the box during this competition. This template was provided solely in the event you wish to develop a web application and don't want to waste your valuable time creating and debugging one from scratch. Feel free to use ANY languages, frameworks, dependencies, environments, types of solutions, etc. in order to best answer the problem statement.
 
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 
-# BELOW IS CREATE-REACT-APP'S DOCUMENTATION
+# FEATURED BELOW IS CREATE-REACT-APP'S DOCUMENTATION
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
