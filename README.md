@@ -51,6 +51,8 @@ After the above was successful, in a separate terminal window from the mentalhea
 
 ```
 > cd backend
+> npm init -y
+> npm install
 > node index.js
 ```
 
