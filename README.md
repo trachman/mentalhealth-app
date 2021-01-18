@@ -33,6 +33,8 @@ You are now ready to begin initializing your development environment.
 
 ## Initializing the Development Environment
 
+### Initializing the Frontend
+
 Run the Following Commands in The Directory you Wish to Start Development...
 
 ```
@@ -41,8 +43,6 @@ Run the Following Commands in The Directory you Wish to Start Development...
 > npm install  
 > npm start  
 ```
-
-<br/>
 
 ### Initializing the Backend
 
