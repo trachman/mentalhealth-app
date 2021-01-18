@@ -42,6 +42,15 @@ Run the Following Commands in The Directory you Wish to Start Development...
 > npm start  
 ```
 
+## Initializing the Backend
+
+In a separate command line tool/terminal and from the mentalhealth-app directory run...
+
+```
+> cd backend
+> node index.js
+```
+
 If all of the above was successful you should now see our boiler plate front-end/back-end template in your browser and you can begin developing your teams project right away!
 From everyone at the BOLT Team, Happy Hacking :) !
 
