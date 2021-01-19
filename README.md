@@ -58,7 +58,7 @@ node index.js
 
 <br/>
 
-If all of the above was successful you should now see our boiler plate front-end/back-end template in your browser as well as have a functioning Node.js Express backend. You can now begin developing your teams project right away!
+If all of the above was successful you should now see our web application template in your browser as well as have a functioning Node.js Express backend. You can now begin developing your teams project right away!
 From everyone at the BOLT Team, Good luck and Happy Hacking :) !
 
 If you have any questions or concerns dont hesitate to reach out to us @contactendpointhere.
